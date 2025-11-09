@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../assets/style/main.css" />
+    <title> Cadastro - LeTurminha </title>
+</head>
+
+<body>
+    <header  class="container-fluid d-flex flex-row align-items-center cor-de-fundo-header justify-content-center">
+        <div class="container row justify-content-between">
+            <div>
+                <a href="../index.html"> <img src="../assets/img/logoLeturminha.png" /> </a>
+            </div>
+            <div class="d-flex align-items-center">
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active cor-link" href="../tutorial/nossoprojeto.html">Como usar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-link" href="../cadastro/cadastro.html">Professor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-link" href="../professor/visaoPorAluno.html">Alunos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-link" href="../index.html">Cards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-link" href="../jogodamemoria/jogo.html">Jogo da Memória</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-link" href="../sobre/sobremim.html">Sobre mim</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container flex-box">
+        <div>
+            <h2 class="titulo-aba d-flex justify-content-center pt-3 pb-2">Cadastro</h2>
+            <form action="pastadestino.bootstrap" method="POST">
+                <div class="form-row">
+                    <div class="form-group col-12 col-md-10 col-lg-8 col-xl-6 offset-0 offset-md-1 offset-lg-2 offset-xl-3">
+                        <label for="inputName">Nome Completo</label>
+                        <input type="text" id="inputName" class="form-control" placeholder="João Silva" required>
+                    </div>
+                    <div class="form-group col-12 col-md-10 col-lg-8 col-xl-6 offset-0 offset-md-1 offset-lg-2 offset-xl-3">
+                        <label for="inputPassword4">Senha</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="123@abc" required>
+                    </div>
+                    <div class="form-group col-12 col-md-10 col-lg-8 col-xl-6 offset-0 offset-md-1 offset-lg-2 offset-xl-3">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="joaosilva@email.com" required>
+                    </div>
+                
+                    <div class="form-group col-12 col-md-10 col-lg-8 col-xl-6 offset-0 offset-md-1 offset-lg-2 offset-xl-3">
+                        <label for="inputPassword4">Repita a senha</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="123@abc" required>
+                    </div>
+                    <div class="form-group col-6 col-md-5 col-lg-4 col-xl-3 offset-0 offset-md-1 offset-lg-2 offset-xl-3">
+                        <label for="inputTelefone">Telefone com DDD</label>
+                        <input type="text" class="form-control" id="inputTelefone" required>
+                    </div>
+                </div>    
+            </form>
+            <div class="d-flex flex-row align-items-center justify-content-center">
+                <a href="../cadastro/login.html"> <button type="submit" class="btn btn-config">Voltar</button> </a>
+                <a href="../professor/linkDoJogo.html"> <button type="submit" class="btn btn-config">Confirmar</button> </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="container-fluid d-flex flex-row cor-de-fundo-footer">
+            Copyright © 2025 FATEC Zona Sul - Dom Paulo Evaristo Arns. Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
